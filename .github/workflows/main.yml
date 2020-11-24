@@ -14,4 +14,3 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: polar-sierra-90205
           heroku_email: olivierlutz8@gmail.com
-          
