@@ -14,3 +14,9 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: polar-sierra-90205
           heroku_email: olivierlutz8@gmail.com
+      - uses: michcio1234/heroku-run@0.1.1
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_email: olivierlutz8@gmail.com
+          heroku_app_name: polar-sierra-90205
+          command: rake db:migrate
